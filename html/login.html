@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,13 +14,13 @@
 
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 <body>
 <!-- header section starts -->
 <header class="header">
-    <a href="home.html" class="logo"><i class="fas fa-store"></i> shopie </a>
+    <a href="../home.html" class="logo"><i class="fas fa-store"></i> shopie </a>
     
     <form action="" class="search-form">
         <input type="search" id="search-box" placeholder="Search Here">
@@ -43,13 +43,13 @@
     <div id="close-side-bar" class="fas fa-times"></div>
 
     <div class="user">
-        <img src="./images/user-img.png" alt="">
+        <img src="../images/user-img.png" alt="">
         <h3>shaikh anas</h3>
         <a href="">log out</a>
     </div>
 
     <nav class="navbar">
-        <a href="home.html"><i class="fas fa-angle-right"></i> home </a>
+        <a href="../home.html"><i class="fas fa-angle-right"></i> home </a>
         <a href="about.html"><i class="fas fa-angle-right"></i> about </a>
         <a href="product.html"><i class="fas fa-angle-right"></i> products </a>
         <a href="contact.html"><i class="fas fa-angle-right"></i> contact </a>
@@ -62,39 +62,35 @@
 <!-- side-bar section ends -->
 
 
-<!-- register form section starts  -->
+<!-- login form section starts  -->
 
-<section class="register">
+<section class="login">
 
     <form action="">
-        <h3>register now</h3>
-        <input type="text" name="" placeholder="Enter your name" id="" class="box">
-        <input type="email" name="" placeholder="Enter your email" id="" class="box">
-        <input type="password" name="" placeholder="Enter your password" id="" class="box">
-        <input type="password" name="" placeholder="Re-enter your password" id="" class="box">
-        <input type="submit" value="register now" class="btn">
-        <p>already have an account?</p>
-        <a href="login.html" class="btn link">login now</a>
+        <h3>login now</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me </label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>don't have an account?</p>
+        <a href="register.html" class="btn link">register now</a>
     </form>
 
 </section>
 
-<!-- register form section ends  -->
-
-
-
-
-
-
+<!-- login form section ends  -->
 
     
 
 <!-- footer section starts -->
 
     <section class="quick-links">
-        <a href="home.html" class="logo"> <i class="fas fa-store"></i> shopie </a>
+        <a href="../home.html" class="logo"> <i class="fas fa-store"></i> shopie </a>
         <div class="links">
-            <a href="home.html"> home </a>
+            <a href="../home.html"> home </a>
             <a href="about.html"> about </a>
             <a href="product.html"> products </a>
             <a href="contact.html"> contact </a>
@@ -114,7 +110,7 @@
     <section class="credit">
         <p> created by <span>mr. Kỳ</span> | all rights reserved |</p>
 
-        <img src="./images/card_img.png" alt="">
+        <img src="../images/card_img.png" alt="">
     </section>
 
 
@@ -126,6 +122,6 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!-- custom js file link -->
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
